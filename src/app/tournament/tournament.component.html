@@ -1,0 +1,17 @@
+<!--<p>{{tournament.name}}</p>-->
+
+<div>
+  <label>Turniername: {{tournament!.name}}</label>
+</div>
+<div>
+  <label> Ort: {{tournament!.location}}</label>
+</div>
+<div>
+  <label for="winner">Gewinner: </label>
+  <input id="winner" [(ngModel)]="tournament!.winner_name" placeholder="noch ausstehend">
+</div>
+
+
+
+
+

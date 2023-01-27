@@ -1,0 +1,12 @@
+<div class="midLayout">
+  <div class="yourprocessLayout">
+    <nav *ngFor="let tournament of tournaments">
+      <a (click)="showHistoryTournament(tournament)">
+        {{tournament?.name}}
+      </a>
+    </nav>
+  </div>
+  <div class="historycontainer">
+    <app-tournament [tournament]=selectTournament></app-tournament>
+  </div>
+</div>

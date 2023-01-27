@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {Tournament} from "./tournament";
+import {TOURNAMENTS} from "./mock-tournament";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angtutorial';
+  historic_tournaments = [
+    'Kolbermoor Schleiferlturnier', 'Neuaubing Teamcup', 'Moonlightcup'
+  ]
+  tournaments: Tournament[] = TOURNAMENTS;
+
+
 }

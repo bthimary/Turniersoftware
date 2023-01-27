@@ -1,0 +1,20 @@
+.yourprocessLayout{
+  width: 185px;
+  horiz-align: left;
+}
+nav a:hover{
+  cursor: pointer;
+}
+.historycontainer{
+  width: 70%;
+  padding-left: 20px;
+  background-color: #f6f4f6;
+  border: 1px solid rgba(0,0,0,0.5);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.midLayout{
+  height: 550px;
+  display: flex;
+
+}
